@@ -20,14 +20,21 @@ function Nav() {
                             </a>
                         </li>
                     </Link>
-                    <Link to = "/Dates">
+                    <Link to = "/NewDate">
                         <li >
                             <a>
                                 <i className = "fa fa-calendar" ></i>
                             </a>
                         </li>
                     </Link>
-                    <Link  to = "/Owners" >
+                    <Link  to = "/Dates" >
+                        <li>
+                            <a >
+                                <i className = "fa fa-calendar-plus" ></i>
+                            </a>
+                        </li>
+                    </Link>
+                    <Link  to = "/Users" >
                         <li>
                             <a >
                                 <i className = "fa fa-user" ></i>

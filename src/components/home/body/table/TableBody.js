@@ -6,7 +6,6 @@ function TableBody() {
         <tbody>
             <TableBodyElement></TableBodyElement>
             <TableBodyElement></TableBodyElement>
-
         </tbody>
     )
 }

@@ -10,7 +10,8 @@ export default function App(){
         <Nav />
         <Routes>
           <Route exact path = "/" element={<Body></Body>} />
-          <Route exact path = "/Dates" element={<Form></Form>} ></Route>
+          <Route exact path = "/NewDate" element={<Form></Form>} ></Route>
+         
         </Routes>
       </div>
     </Router>
