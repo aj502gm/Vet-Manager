@@ -1,0 +1,26 @@
+
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('4s1s2v634','79014qhqSX',25,6,2043,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('9m7y6n690','78163lpaXQ',31,6,2001,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('2g6m3c244','67577rwdDV',19,12,2028,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('6e5o6x702','06964lfhFI',25,7,2042,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('7w9m5q905','83635vpfIF',25,8,2009,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('2q5z1v029','45571cfvRI',14,8,2004,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('2n7g6m870','65717ursRJ',28,6,2024,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('4y2y5p110','79014qhqSX',17,8,2002,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('1o1j0n825','81206lxaES',11,8,2004,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('5f4z9g589','04524xknIV',26,9,2043,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('0h1p8m670','04524xknIV',11,11,2015,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('1r7y3s776','88194zrvQN',10,12,2001,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('4e9t1z577','65717ursRJ',15,10,2032,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('2n6o3w905','43737igzGD',15,4,2019,'Pending');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('5f2u1p494','79130xoiZR',23,3,2020,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('8f6q2h017','88194zrvQN',19,11,2024,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('5z7d1h197','27640inpKS',31,7,2036,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('9w4c1q713','32332uwyCX',14,6,2007,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('7m4p0f625','32332uwyCX',29,5,2027,'Done');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('9h0f9w926','27640inpKS',23,7,2050,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('5q8b3f123','78163lpaXQ',10,9,2000,'Pending');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('6p1v2f270','04524xknIV',25,8,2038,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('1i1l9h704','79014qhqSX',5,9,2040,'Pending');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('9o3b1f331','50368ntgZR',5,6,2043,'Posponed');
+INSERT INTO appointments(id_appointment,id_pet,dueDay,dueMonth,dueYear,availability) VALUES ('5z6w5c192','81206lxaES',1,7,2020,'Posponed');
