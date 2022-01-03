@@ -1,0 +1,17 @@
+{
+  "name": "vmsbackend",
+  "version": "1.0.0",
+  "proxy": "http://localhost:8080",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Andres De Jesus",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
