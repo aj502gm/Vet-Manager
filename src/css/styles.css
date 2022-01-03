@@ -106,13 +106,6 @@ canvas{
     height:350px!important;
     float: right;
 }
-.main-dashboard-table{
-     position: absolute;
-     background: green;
-     bottom:0px;
-     right: 5%;
-     width: 50%;
-} 
 
 /*
    HOW TO FIX THE TABLE'S BOTTOM DISTANCE WHEN GROWING UP???
@@ -249,4 +242,15 @@ select{
 }
 .column5{
     display:flex;
+}
+.info-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(25, 50%);
+
+    grid-column-gap: -5px;
+}
+.date-wrapper{
+   grid-column: span 1;
+    background: red;
 }

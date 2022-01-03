@@ -16,8 +16,14 @@ body, html {
 [ Table ]*/
 
 .limiter {
-  width:50%;
+  width:95%;
   margin-left: 20px;
+  grid-column: span 2;
+ 
+}
+.limiter2 {
+  width:50%;
+  
  
 }
 

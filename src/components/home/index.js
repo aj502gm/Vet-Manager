@@ -7,20 +7,26 @@ function Body (){
         <div id="content">
             <h1 className = "main-banner">Home</h1>
             <div className = "main-dashboard">
-               <Banner name = "pets" value = "5"/>
-               <Banner name = "owners" value = "5"/>
-               <Banner name = "Doctors" value = "5"/>
+               <Banner name = "Pets" value = "5"/>
+               <Banner name = "Owners" value = "5"/>
+               <Banner name = "Dates" value = "5"/>
                <Banner name = "Species" value = "5"/>
             </div>
-            <div className="limiter">
-                <div className="container-table100">
-                    <div className="wrap-table100">
-                        <div className="table100">
-                            <Table></Table>
+            <div className = "info-wrapper">
+                <div className="limiter">
+                    <div className="container-table100">
+                        <div className="wrap-table100">
+                            <div className="table100">
+                                <Table></Table>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div className = "date-wrapper">
+                    
+                </div>
             </div>
+            
         </div>
     )
 }
