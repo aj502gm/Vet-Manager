@@ -1,17 +1,34 @@
 const express = require("express");
 const app = express();
 const cors = require('cors');
+const mysql = require("mysql2"); 
 
 app.use(cors({
     origin: '*'
 }));
 
 app.get("/", (req, res) => {
-    console.log("Connected to React");
-    // res.redirect("/");
-    res.send([{algo: "algo"}, {algo: "algo2"}]);
+    con.connect(function(err) {
+        if (err) throw err;
+        con.query("SELECT * FROM owners", function (err, result, fields) {
+          if (err) throw err;
+          console.log(result);
+          res.send(result);
+        });
+    });
 });
 
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`));
+
+//---------------   MYSQL CONNECTION -----------
+
+
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "admin",
+    database: "vms",
+    connectionLimit: 5
+});

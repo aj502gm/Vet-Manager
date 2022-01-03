@@ -6,21 +6,7 @@ import CheckDates from './components/newDates/index.js'
 import User from './components/users/index.js'
 import {BrowserRouter as Router, Routes, Route} from  'react-router-dom'
 export default function App(){
-  useEffect(()=> {
-    const requestFunc = async () => {
-      const request = await fetch('http://localhost:8080/');
-      const data = await request.json();
-      console.log(data);
-      // const request = await fetch("http://localhost:8080/post", {mode: 'cors',})
-      //   .then(response => {
-      //     console.log("primera: " + response);
-      //     response.json().then(result => console.log("final: " + result));
-      //   })
-      // const data = await request;
-      // console.log(data);
-    }
-    requestFunc();
-  }, [])
+  
   return (
     <Router>
       <div className = "App">

@@ -238,4 +238,15 @@ select{
 
 .btn-table{
     background: red;
+    float: left;
+    margin-top: 2%;
+}
+.btn-modify{
+    background: orangered;
+    float:left;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.column5{
+    display:flex;
 }

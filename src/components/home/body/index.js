@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import TableHeader from "./table/TableHeader";
 import TableBody from "./table/TableBody";
 function Table() {
+    
     return (
         <table>
             <TableHeader/>

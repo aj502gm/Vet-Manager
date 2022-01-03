@@ -1,15 +1,16 @@
 import React from 'react'
 
-function TableBodyElement() {
+function TableBodyElement({id_owner,first_name,last_name, phoneNumber, email}) {
     return (
         <tr>
-            <td className="column1">Null</td>
-            <td className="column2">Null</td>
-            <td className="column3">Null</td>
-            <td className="column4">Null</td>
-            <td class="column4">
+            <td className="column1">{id_owner}</td>
+            <td className="column2">{first_name + last_name}</td>
+            <td className="column3">{phoneNumber}</td>
+            <td className="column4">{email}</td>
+            <td className="column5">
                    
-                <input type = "button" value = "Delete" class = "btn btn-table" ></input>
+                <input type = "button" value = "Delete" className = "btn btn-table" ></input>
+                <input type = "button" value = "Delete" className = "btn btn-table btn-modify" ></input>
             </td>
         </tr>
     )
