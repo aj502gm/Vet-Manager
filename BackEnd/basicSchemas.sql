@@ -50,4 +50,6 @@ CREATE TABLE appointments_details(
 	CONSTRAINT CK_FK_DETAILS_ID_OWNER FOREIGN KEY (id_owner) REFERENCES  owners(id_owner)
 );
 
-SELECT * FROM appointments;
+-- SELECT * FROM appointments where availability = "Pending";
+-- SELECT * FROM appointments_details;
+DROP TABLE appointments;

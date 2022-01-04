@@ -9,10 +9,11 @@ app.use(cors({
 
 app.get("/", (req, res) => {
     con.connect(function(err) {
+        const mainDashQueries = "SELECT * FROM owners;SELECT * FROM appointments where availability = 'PENDING';"
         if (err) throw err;
-        con.query("SELECT * FROM owners", function (err, result, fields) {
+        con.query(mainDashQueries, function (err, result, fields) {
           if (err) throw err;
-          console.log(result);
+          //console.log(result[1]);
           res.send(result);
         });
     });
@@ -30,5 +31,6 @@ var con = mysql.createConnection({
     user: "root",
     password: "admin",
     database: "vms",
-    connectionLimit: 5
+    connectionLimit: 5,
+    multipleStatements: true,
 });

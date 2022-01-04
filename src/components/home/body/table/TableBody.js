@@ -10,7 +10,7 @@ function TableBody() {
             const request = await fetch('http://localhost:8080/');
             const data = await request.json();
             
-            data.forEach(element => dataOwners.push(element));
+            data[0].forEach(element => dataOwners.push(element));
             setOwnersList(dataOwners);
             
         }

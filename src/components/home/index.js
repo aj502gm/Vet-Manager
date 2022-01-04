@@ -1,7 +1,11 @@
 import React from 'react';
 import "../../css/tableDesign.css";
 import Banner from './header/Header';
-import Table from "./body/index"
+import Table from "./body/index";
+import DateCard from './body/datesCards';
+import BodyCard from './body/datesCards/bodyCard';
+import "../../css/tableDesign.css";
+import "../../css/datesDesign.css";
 function Body (){
     return (
         <div id="content">
@@ -22,9 +26,9 @@ function Body (){
                         </div>
                     </div>
                 </div>
-                <div className = "date-wrapper">
-                    
-                </div>
+                <section className = " info">
+                    <BodyCard></BodyCard>
+                </section>
             </div>
             
         </div>
